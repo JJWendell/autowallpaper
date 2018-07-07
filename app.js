@@ -35,7 +35,7 @@ function getWallpaper(t) {
 setInterval(function() {
         let check = new Date().getHours();
         if (check != time) {
-            getWallpaper(time);
+            getWallpaper(check);
             time = check;
         }
         console.log('check');
